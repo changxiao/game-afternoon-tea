@@ -1,0 +1,40 @@
+{
+  "name": "game-afternoon-tea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changxiao/game-afternoon-tea.git"
+  },
+  "keywords": [
+    "game",
+    "vuejs",
+    "webpack"
+  ],
+  "author": "changxiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changxiao/game-afternoon-tea/issues"
+  },
+  "homepage": "https://github.com/changxiao/game-afternoon-tea#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
